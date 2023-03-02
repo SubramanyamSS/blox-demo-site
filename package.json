@@ -1,0 +1,55 @@
+{
+  "name": "vue.ai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tippyjs/react": "^4.2.6",
+    "date-fns": "^2.28.0",
+    "jquery": "^3.6.0",
+    "jsoneditor": "^7.0.4",
+    "konva": "^8.3.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "msd-button": "^2.0.0",
+    "msd-modal": "^2.0.0",
+    "package.json": "^2.0.1",
+    "rc-pagination": "^1.20.8",
+    "react": "^16.14.0",
+    "react-bounding-box": "^0.5.14",
+    "react-charts": "^2.0.0-beta.7",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-konva": "^17.0.2-5",
+    "react-player": "^2.6.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-select": "^5.2.2",
+    "react-slick": "^0.25.2",
+    "react-sparklines": "^1.7.0",
+    "react-svg-radar-chart": "^1.2.0",
+    "react-wordcloud": "^1.2.2",
+    "react-zoom-pan-pinch": "2.1.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

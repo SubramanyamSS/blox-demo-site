@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?24079740');
+  src: url('../font/fontello.eot?24079740#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?24079740') format('woff2'),
+       url('../font/fontello.woff?24079740') format('woff'),
+       url('../font/fontello.ttf?24079740') format('truetype'),
+       url('../font/fontello.svg?24079740#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?24079740#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-report:before { content: '\e800'; } /* '' */
+.icon-community:before { content: '\e801'; } /* '' */
+.icon-right-arrow:before { content: '\e802'; } /* '' */
+.icon-left-arrow:before { content: '\e803'; } /* '' */
+.icon-photography:before { content: '\e804'; } /* '' */
+.icon-twitter:before { content: '\e805'; } /* '' */
+.icon-heart-filled:before { content: '\e806'; } /* '' */
+.icon-shoppers:before { content: '\e807'; } /* '' */
+.icon-code:before { content: '\e808'; } /* '' */
+.icon-analytics:before { content: '\e809'; } /* '' */
+.icon-custom:before { content: '\e80a'; } /* '' */
+.icon-flexible:before { content: '\e80b'; } /* '' */
+.icon-catalog-management:before { content: '\e80c'; } /* '' */
+.icon-magnifying-glass:before { content: '\e80d'; } /* '' */
+.icon-target:before { content: '\e80e'; } /* '' */
+.icon-recommendations:before { content: '\e810'; } /* '' */
+.icon-curation:before { content: '\e813'; } /* '' */
+.icon-thumbsup:before { content: '\e819'; } /* '' */
+.icon-dress:before { content: '\e81a'; } /* '' */
+.icon-style:before { content: '\e81b'; } /* '' */
+.icon-uparrow:before { content: '\e81d'; } /* '' */
+.icon-ab-testing:before { content: '\e81f'; } /* '' */
+.icon-glossary:before { content: '\e833'; } /* '' */
+.icon-case-study:before { content: '\e834'; } /* '' */
+.icon-blog:before { content: '\e835'; } /* '' */
+.icon-podcast:before { content: '\e836'; } /* '' */
+.icon-grocery:before { content: '\e837'; } /* '' */
+.icon-electronics:before { content: '\e838'; } /* '' */
+.icon-furniture:before { content: '\e839'; } /* '' */
+.icon-beauty:before { content: '\e83a'; } /* '' */
+.icon-fashion:before { content: '\e83b'; } /* '' */
+.icon-trophy:before { content: '\e83c'; } /* '' */
+.icon-heart:before { content: '\e83d'; } /* '' */
+.icon-cart:before { content: '\e83e'; } /* '' */
+.icon-dressing:before { content: '\e83f'; } /* '' */
+.icon-dress-1:before { content: '\e840'; } /* '' */
+.icon-personalize:before { content: '\e841'; } /* '' */
+.icon-product-curation:before { content: '\e842'; } /* '' */
+.icon-content:before { content: '\e843'; } /* '' */
+.icon-tag:before { content: '\e844'; } /* '' */
+.icon-listing:before { content: '\e845'; } /* '' */
+.icon-mail:before { content: '\e846'; } /* '' */
+.icon-styling-recomandation:before { content: '\e847'; } /* '' */
+.icon-vuex:before { content: '\e848'; } /* '' */
+.icon-data-management:before { content: '\e849'; } /* '' */
+.icon-recomendation:before { content: '\e84a'; } /* '' */
+.icon-image-moderation:before { content: '\e84b'; } /* '' */
+.icon-product-tagging:before { content: '\e84c'; } /* '' */
+.icon-marketing:before { content: '\e84d'; } /* '' */
+.icon-personized-search:before { content: '\e84e'; } /* '' */
+.icon-productivity:before { content: '\e850'; } /* '' */
+.icon-settings:before { content: '\e852'; } /* '' */
+.icon-taxonomy:before { content: '\e853'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
